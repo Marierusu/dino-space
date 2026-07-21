@@ -1,0 +1,142 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: ghostwhite;
+  background-image: url("https://64.media.tumblr.com/0f166d19566d306dc3389b18ce285696/tumblr_ob57fzBAJd1v8ll5wo1_1280.png");
+  color: black;
+  font-family: fredoka;
+  
+}
+
+  .menu{ /*contenedor del menu*/
+    justify-content: center;
+    display: flex; /*coloca a los hijos uno alado de otro */
+    gap: 30px; /* espacio entre los enlaces px = pixeles*/
+    margin: 20px 0; /*espacio afuera del menu */
+  }
+
+  .menu a,
+  .menu a:visited{ /*links*/ 
+    padding: 10px 15px;
+    background-color: white; /* */
+    border: 2px solid hotpink; /* borde de 2 pixeles*/
+    text-decoration: none; /*quita el subrayado del link */
+    color: black; /* color del texto del enlace*/
+    border-radius: 5px; /*redondea las esquinas */
+}
+
+  .menu a:hover{
+    background-color: seashell;
+  }
+  
+  .alien { animation: bounce 2s infinite; }
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-10px); }
+  }
+  
+  .constructor { animation: bounce 0.1s infinite; }
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-10px); }
+  }
+  
+  .centroRosa {
+    color: hotpink;
+    text-align: center;
+    font-family: fredoka;
+  }
+  
+  .bordes {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .cuadro {
+    color: hotpink;
+    text-align: center; /*centrear contenido*/
+    border-style: solid; /* */
+    border-color: hotpink; /* */
+    border-width: medium; /* */
+    background-color: white; /* */
+    padding: 5px; /*espacio entre borde y texto creo */
+    width: 950px; /*ancho*/
+    height: auto; /*alto*/
+    margin: auto; /* */
+  }
+  
+  .cuadro2 {
+    display: flex;
+  }
+  
+  .cuadrotexto {/*cuadro a la izquierda*/
+    font-family: cursive;
+    color: hotpink;
+    text-align: left; 
+    border-style: solid; /* */
+    border-color: hotpink; /* */
+    border-width: medium; /* */
+    background-color: white; /* */
+    padding: 10px; /*espacio entre borde y texto creo */
+    width: 650px; /*ancho*/
+    height: auto; /*alto*/
+    margin: 10px; /* */
+  }
+  
+  .cuadroderecha {/*cuadro derecha*/
+    color: hotpink;
+    text-align: center; 
+    border-style: solid; /* */
+    border-color: hotpink; /* */
+    border-width: medium; /* */
+    background-color: white; /* */
+    padding: 0px; /*espacio entre borde y texto creo */
+    width: 220px; /*ancho*/
+    height: auto; /*alto*/
+    margin: 10px; /* */
+  }
+  
+  
+  
+  
+  
+  .imagenes {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    transition: border-color 1s ease;
+  }
+  
+  .imagenes img {
+    height: auto;
+    width: 100%;
+    border: dashed;
+    transition: transform 0.5s ease;
+  }
+
+
+  .imagenes img:hover {
+    transform: scale(1.1);
+    border-color: pink;
+    border-style: dashed;
+  }
+  
+  .cuadroH {
+    height: auto;
+    width: 100%;
+  }
+  
+  .toDo {
+  list-style: none;   /* quita los puntitos */
+  padding: 0;         /* quita la sangría */
+  margin: 0;
+}
+  
+  
