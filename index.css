@@ -1,0 +1,16 @@
+body {
+  background-color: #ffd4ec;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size:cover;
+  color: black;
+  font-family: fredoka;
+  
+}
+
+.laptop {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    height: 700px;
+}
